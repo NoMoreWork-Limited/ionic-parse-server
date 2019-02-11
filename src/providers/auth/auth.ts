@@ -32,6 +32,9 @@ export class AuthProvider {
           observer.complete();
         },
         error: function (user, error) {
+          observer.error(error);
+          observer.complete();
+          /*
           // If the user inputs the email instead of the username
           var userQuery = new Parse.Query(Parse.User);
 
@@ -52,7 +55,7 @@ export class AuthProvider {
             observer.error(error);
             observer.complete();
           });
-          
+          */
         }
       });
     });
