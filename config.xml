@@ -1,12 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="nmw.ionic.parse.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Ionic Parse Server</name>
-    <description>Clean and simple Ionic Parse Server Starter.</description>
-    <author email="tech@nomore.work" href="https://nomore.work">Mauricio Urraco</author>
+    <name>NMW Core</name>
+    <description>Core</description>
+    <author email="tech@nomore.work" href="https://nomore.work">No More Work Limited</author>
     <content src="index.html" />
     <access origin="*" />
-    <allow-navigation href="http://ionic.local/*" />
-    <allow-navigation href="http://192.168.0.4:8100" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
